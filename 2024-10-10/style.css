@@ -1,0 +1,19 @@
+li:first-child {
+    color: red;
+}
+
+li:nth-child(2) {
+    color: green;
+}
+
+li:last-child {
+    color: blue;
+}
+
+p:only-child {
+    font-weight: bold;
+}
+
+li:not(.ausnahme) {
+    background-color: yellow;
+}
