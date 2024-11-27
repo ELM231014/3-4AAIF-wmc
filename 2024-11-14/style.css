@@ -1,0 +1,231 @@
+/* Allgemeines Styling */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #eafaf1;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #1cda33;
+    padding: 15px 30px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #23a455;
+    transition: color 0.2s ease;
+}
+
+.navbar-brand:hover {
+    color: #1e8d48;
+}
+
+.nav-link {
+    font-size: 16px;
+    color: #000;
+    margin-right: 20px;
+    transition: color 0.2s ease;
+}
+
+.nav-link:hover,
+.nav-item.active .nav-link {
+    color: #23a455;
+    font-weight: bold;
+}
+
+.btn-outline-primary {
+    border: 1.5px solid #23a455;
+    color: #23a455;
+    border-radius: 5px;
+    transition: background-color 0.2s ease;
+}
+
+.btn-outline-primary:hover {
+    background-color: #23a455;
+    color: #fff;
+}
+
+/* Haupttitel */
+.main-title {
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.main-subtitle {
+    color: #555;
+}
+
+/* Karten (Pricing Cards) */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: #23a455;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.card-body {
+    font-size: 16px;
+    padding: 20px;
+}
+
+.plan-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #333;
+}
+
+.plan-features {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.plan-features li {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.card-recommended {
+    border-color: #23a455;
+    background: #f9fff9;
+}
+
+/* Buttons */
+.card .btn {
+    border-radius: 25px;
+    padding: 10px 25px;
+}
+
+.card .btn-primary {
+    background-color: #23a455;
+    border-color: #23a455;
+}
+
+.card .btn-primary:hover {
+    background-color: #1e8d48;
+}
+
+/* Profil & Zitat */
+.profile-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+blockquote {
+    font-size: 24px;
+    color: #333;
+    border-left: 5px solid #1fe374;
+    padding-left: 15px;
+}
+
+/* FAQ-Bereich */
+h2 {
+    font-size: 30px;
+    color: #1e8d48;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Footer */
+.footer {
+    background-color: #0A0A0A;  /* Dark background */
+    color: #ffffff;  /* White text */
+    padding: 50px 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-logo .logo-text {
+    font-size: 36px;
+    color: #00FF66;  /* Green logo text */
+}
+
+.footer-logo .trial-btn {
+    background-color: #00FF66;
+    color: #0A0A0A;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.footer-links {
+    display: flex;
+    gap: 50px;
+}
+
+.footer-section h5 {
+    color: #ffffff;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.footer-section a {
+    color: #00FF66;
+    text-decoration: none;
+    display: block;
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.footer-bottom a {
+    color: #00FF66;
+    text-decoration: none;
+}
+
+.contact-btn {
+    background-color: transparent;
+    color: #00FF66;
+    border: 1px solid #00FF66;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.contact-btn:hover {
+    background-color: #00FF66;
+    color: #0A0A0A;
+}
