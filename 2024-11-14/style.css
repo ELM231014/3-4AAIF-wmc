@@ -1,231 +1,345 @@
 /* Allgemeines Styling */
 body {
     margin: 0;
+    /* Kein Rand */
     padding: 0;
+    /* Kein Padding */
     background-color: #eafaf1;
+    /* Hellgrüner Hintergrund */
     font-family: Arial, sans-serif;
+    /* Schriftart */
 }
 
 /* Navbar */
 .navbar {
     background-color: #1cda33;
+    /* Grüner Hintergrund */
     padding: 15px 30px;
+    /* Innenabstand */
 }
 
 .navbar-brand {
     font-size: 24px;
+    /* Große Schrift */
     font-weight: bold;
+    /* Fett */
     color: #23a455;
+    /* Grün */
     transition: color 0.2s ease;
+    /* Farbwechsel */
 }
 
 .navbar-brand:hover {
     color: #1e8d48;
+    /* Dunkleres Grün */
 }
 
 .nav-link {
     font-size: 16px;
+    /* Schriftgröße */
     color: #000;
+    /* Schwarz */
     margin-right: 20px;
+    /* Abstand rechts */
     transition: color 0.2s ease;
+    /* Farbwechsel */
 }
 
 .nav-link:hover,
 .nav-item.active .nav-link {
     color: #23a455;
+    /* Grün */
     font-weight: bold;
+    /* Fett */
 }
 
 .btn-outline-primary {
     border: 1.5px solid #23a455;
+    /* Grüner Rand */
     color: #23a455;
+    /* Grün */
     border-radius: 5px;
+    /* Runde Ecken */
     transition: background-color 0.2s ease;
+    /* Farbwechsel */
 }
 
 .btn-outline-primary:hover {
     background-color: #23a455;
+    /* Grüner Hintergrund */
     color: #fff;
+    /* Weiß */
 }
 
 /* Haupttitel */
 .main-title {
     font-size: 2.8rem;
+    /* Sehr groß */
     font-weight: 600;
+    /* Fett */
     margin-bottom: 15px;
+    /* Abstand unten */
     color: #333;
+    /* Dunkelgrau */
 }
 
 .main-subtitle {
     color: #555;
+    /* Mittelgrau */
 }
 
-/* Karten (Pricing Cards) */
+/* Karten */
 .card {
     border: 1px solid #ddd;
+    /* Grauer Rand */
     border-radius: 8px;
+    /* Runde Ecken */
     margin: 20px 0;
+    /* Vertikaler Abstand */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Schatten */
 }
 
 .card-header {
     background-color: #23a455;
+    /* Grün */
     color: white;
+    /* Weiß */
     text-align: center;
+    /* Zentriert */
     font-weight: bold;
+    /* Fett */
 }
 
 .card-body {
     font-size: 16px;
+    /* Standardgröße */
     padding: 20px;
+    /* Innenabstand */
 }
 
 .plan-title {
     font-size: 1.8rem;
+    /* Groß */
     font-weight: 700;
+    /* Sehr fett */
     color: #333;
+    /* Dunkelgrau */
 }
 
 .plan-features {
     list-style: none;
+    /* Keine Punkte */
     padding: 0;
+    /* Kein Innenabstand */
     margin: 20px 0;
+    /* Vertikaler Abstand */
 }
 
 .plan-features li {
     font-size: 1rem;
+    /* Standardgröße */
     color: #666;
+    /* Grau */
     margin-bottom: 10px;
+    /* Abstand unten */
 }
 
 .card-recommended {
     border-color: #23a455;
+    /* Grüner Rand */
     background: #f9fff9;
+    /* Hellgrün */
 }
 
-/* Buttons */
 .card .btn {
     border-radius: 25px;
+    /* Runde Ecken */
     padding: 10px 25px;
+    /* Innenabstand */
 }
 
 .card .btn-primary {
     background-color: #23a455;
+    /* Grün */
     border-color: #23a455;
+    /* Grüner Rand */
 }
 
 .card .btn-primary:hover {
     background-color: #1e8d48;
+    /* Dunkleres Grün */
 }
 
 /* Profil & Zitat */
 .profile-img {
     width: 80px;
+    /* Breite */
     height: 80px;
+    /* Höhe */
     border-radius: 50%;
+    /* Rund */
     object-fit: cover;
+    /* Bild zuschneiden */
 }
 
 blockquote {
     font-size: 24px;
+    /* Groß */
     color: #333;
+    /* Dunkelgrau */
     border-left: 5px solid #1fe374;
+    /* Grüner Balken links */
     padding-left: 15px;
+    /* Abstand links */
 }
 
-/* FAQ-Bereich */
+/* FAQ */
 h2 {
     font-size: 30px;
+    /* Groß */
     color: #1e8d48;
+    /* Grün */
     font-weight: bold;
+    /* Fett */
 }
 
 h4 {
     font-size: 18px;
+    /* Mittelgroß */
     font-weight: bold;
+    /* Fett */
     color: #333;
+    /* Dunkelgrau */
 }
 
 p {
     font-size: 16px;
+    /* Standardgröße */
     color: #555;
+    /* Grau */
 }
 
 /* Footer */
 .footer {
-    background-color: #0A0A0A;  /* Dark background */
-    color: #ffffff;  /* White text */
+    background-color: #0A0A0A;
+    /* Schwarz */
+    color: #ffffff;
+    /* Weiß */
     padding: 50px 0;
+    /* Vertikaler Abstand */
     font-family: 'Inter', sans-serif;
+    /* Schriftart */
 }
 
 .footer-content {
     display: flex;
+    /* Flexbox */
     justify-content: space-between;
+    /* Elemente verteilen */
     align-items: center;
+    /* Zentriert */
     flex-wrap: wrap;
+    /* Zeilenumbruch */
     max-width: 1200px;
+    /* Maximale Breite */
     margin: 0 auto;
+    /* Zentriert */
     padding: 0 20px;
+    /* Horizontaler Abstand */
 }
 
 .footer-logo .logo-text {
     font-size: 36px;
-    color: #00FF66;  /* Green logo text */
+    /* Groß */
+    color: #00FF66;
+    /* Grün */
 }
 
 .footer-logo .trial-btn {
     background-color: #00FF66;
+    /* Grün */
     color: #0A0A0A;
+    /* Schwarz */
     padding: 10px 20px;
+    /* Innenabstand */
     border: none;
+    /* Kein Rand */
     border-radius: 5px;
+    /* Runde Ecken */
     margin-top: 10px;
+    /* Abstand oben */
     cursor: pointer;
+    /* Zeiger */
     font-weight: bold;
+    /* Fett */
 }
 
 .footer-links {
     display: flex;
+    /* Flexbox */
     gap: 50px;
+    /* Abstand zwischen Links */
 }
 
 .footer-section h5 {
     color: #ffffff;
+    /* Weiß */
     margin-bottom: 10px;
+    /* Abstand unten */
     font-weight: bold;
+    /* Fett */
 }
 
 .footer-section a {
     color: #00FF66;
+    /* Grün */
     text-decoration: none;
+    /* Keine Unterstreichung */
     display: block;
+    /* Blockelement */
     margin: 5px 0;
+    /* Vertikaler Abstand */
     font-size: 14px;
+    /* Klein */
 }
 
 .footer-bottom {
     text-align: center;
+    /* Zentriert */
     margin-top: 30px;
+    /* Abstand oben */
 }
 
 .footer-bottom a {
     color: #00FF66;
+    /* Grün */
     text-decoration: none;
+    /* Keine Unterstreichung */
 }
 
 .contact-btn {
     background-color: transparent;
+    /* Kein Hintergrund */
     color: #00FF66;
+    /* Grün */
     border: 1px solid #00FF66;
+    /* Grüner Rand */
     padding: 10px 20px;
+    /* Innenabstand */
     border-radius: 5px;
+    /* Runde Ecken */
     cursor: pointer;
+    /* Zeiger */
     margin-top: 10px;
+    /* Abstand oben */
     font-weight: bold;
+    /* Fett */
 }
 
 .contact-btn:hover {
     background-color: #00FF66;
+    /* Grün */
     color: #0A0A0A;
+    /* Schwarz */
 }
