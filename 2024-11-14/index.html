@@ -1,30 +1,25 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <!-- Basis-Einstellungen der Seite -->
-    <meta charset="UTF-8"> <!-- Zeichencodierung festlegen -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Anpassung für mobile Geräte -->
-    <title>Pulse</title> <!-- Titel der Seite -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pulse</title>
 
-    <!-- CSS-Dateien -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="style.css"> <!-- Eigene CSS-Datei -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#"> <!-- Logo -->
+        <a class="navbar-brand" href="#">
             <img src="pulselogo.png" alt="Pulse Logo" style="height: 40px;">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Navigation umschalten"> <!-- Mobile-Menü -->
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav"> <!-- Navigationslinks -->
+        <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item"><a class="nav-link" href="#">Features</a></li>
                 <li class="nav-item"><a class="nav-link" href="#">Customer Stories</a></li>
@@ -35,58 +30,64 @@
         </div>
     </nav>
 
-    <!-- Hauptinhalt -->
+
     <main class="container text-center mt-5">
-        <h1 class="main-title">Try Pulse free for 30 days.</h1> <!-- Hauptüberschrift -->
-        <p class="main-subtitle"> <!-- Beschreibung -->
+        <h1 class="main-title">Try Pulse free for 30 days.</h1>
+        <p class="main-subtitle">
             See why Pulse is the best way to monitor your cash flow. Sign up
             for any plan and try Pulse absolutely free for 30 days.
         </p>
 
-        <div class="row mt-5"> <!-- Preisoptionen -->
-            <div class="col-md-4"> <!-- Option 1 -->
+        <div class="row mt-5">
+
+            <div class="col-md-4">
                 <div class="card card-basic">
                     <div class="card-body">
-                        <h3 class="plan-title">Pulse Basics</h3>
-                        <ul class="plan-features mt-3"> <!-- Funktionen -->
-                            <li>Verwalte deinen Cashflow täglich...</li>
-                            <li>Prognosen für Wachstum erstellen...</li>
-                            <li>Funktioniert mit jeder Währung</li>
-                            <li>Einnahmen und Ausgaben anzeigen...</li>
-                            <li>Einträge und Konten einfach umschalten</li>
-                            <li>Basics für <strong>$29 pro Monat</strong>.</li>
+                        <h3 class="plan-title">These are what we call the Pulse Basics. They’re what every customer gets
+                        </h3>
+                        <ul class="plan-features mt-3">
+                            <li>Manage cash flow on a daily, weekly, monthly, or yearly basis</li>
+                            <li>Forecast growth with recurring Income or expenses that scale dramatically</li>
+                            <li>Works with any currency</li>
+                            <li>See Money In and Money Out, categorize transactions, and run helpful reports</li>
+                            <li>Toggle entries and accounts and off to game out different secenarios</li>
+                            <li>Just need the Pulse Basics?<strong>Get them nowfor $29 per month</strong>.</li>
                         </ul>
                     </div>
                 </div>
             </div>
 
-            <div class="col-md-4"> <!-- Option 2 -->
+
+            <div class="col-md-4">
                 <div class="card card-recommended">
-                    <div class="card-header">RECOMMENDED</div> <!-- Empfehlung -->
+                    <div class="card-header">RECOMMENDED</div>
                     <div class="card-body">
                         <h3 class="plan-title">Small Business Plan</h3>
                         <p class="price">$59 per month</p>
-                        <a href="#" class="btn btn-success btn-lg">Sign Up Now</a> <!-- Anmeldebutton -->
+                        <a href="#" class="btn btn-success btn-lg">Sign Up Now</a>
                         <ul class="plan-features mt-3">
-                            <li>Cashflow für mehrere Konten...</li>
-                            <li>Teile Berichte mit Investoren...</li>
-                            <li>QuickBooks-Integration...</li>
-                            <li>Tatsächlichen Cashflow verfolgen...</li>
+                            <li>Manage cash flow across multiple financial accounts</li>
+                            <li>Invite your investors, book keeper or management team to see reports manage cash flow
+                            </li>
+                            <li>Integrate with QuickBooks Online for more accurate cash flow</li>
+                            <li> Track your actual cash flow alongside your projected cash flow</li>
                         </ul>
                     </div>
                 </div>
             </div>
 
-            <div class="col-md-4"> <!-- Option 3 -->
+
+            <div class="col-md-4">
                 <div class="card card-premium">
                     <div class="card-body">
                         <h3 class="plan-title">Unlock Extra Features</h3>
                         <p class="price">$89 per month</p>
-                        <a href="#" class="btn btn-outline-secondary">Try Premium</a> <!-- Premium-Button -->
+                        <a href="#" class="btn btn-outline-secondary">Try Premium</a>
                         <ul class="plan-features mt-3">
-                            <li>Verwalte unbegrenzt Konten...</li>
-                            <li>Währungsumrechnung...</li>
-                            <li>Rechnungen anhängen...</li>
+                            <li>Manage cash flow across unlimited financial accounts</li>
+                            <li>Convert to any currency for localized alized cash flow</li>
+                            <li>Attach involces or contracts to your cash flow entries for accountability and auditing
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -94,48 +95,52 @@
         </div>
     </main>
 
-    <!-- Kundenmeinung -->
     <div class="bg-light py-5">
         <div class="container text-center">
-            <img src="Subvert.png" alt="Profilbild" class="profile-img"> <!-- Kundenbild -->
+            <img src="Subvert.png" alt="Profilbild" class="profile-img">
             <blockquote class="blockquote">
-                <p class="mb-4">“Pulse is worth every penny...”</p>
+                <p class="mb-4">“Pulse is worth every penny because it empowers business owners with critical
+                    financial insight and knowledge.”</p>
                 <footer class="blockquote-footer">SUBVERT MARKETING, INC.</footer>
             </blockquote>
         </div>
     </div>
 
-    <!-- FAQ-Bereich -->
     <section class="container-fluid my-5">
         <h2 class="text-center mb-4">FAQ</h2>
         <div class="row">
-            <div class="col-md-6"> <!-- Linke Spalte -->
+            <div class="col-md-6">
                 <h4>How does the 30-day free trial work?</h4>
-                <p>Teste Pulse 30 Tage kostenlos...</p>
+                <p>You can use Pulse absolutely free for 30 days. After 30 days, we will charge the credit card you
+                    used when you sign up. If you choose to cancel your account before your trial ends, your card will
+                    not be charged.</p>
 
                 <h4>What is a “Financial Account”?</h4>
-                <p>Konten für Einnahmen und Ausgaben...</p>
+                <p>Financial Accounts are a grouping of income and expense items that can be used for tracking or
+                    reporting purposes. They're designed to be flexible and can be used to differentiate between
+                    bank accounts, companies, individuals, or between personal and business entries.</p>
             </div>
-            <div class="col-md-6"> <!-- Rechte Spalte -->
-                <h4>If I upgrade an existing account...</h4>
-                <p>Nur neue Konten erhalten die...</p>
+            <div class="col-md-6">
+                <h4>If I upgrade an existing account, do I get another free trial?</h4>
+                <p>Brand new accounts are the only ones eligible for a 30-day free trial. If you upgrade an existing
+                    account, your credit card will be billed the new amount on the date of your next billing cycle.
+                </p>
 
                 <h4>Do I have to commit to a long-term contract?</h4>
-                <p>Keine langfristigen Verträge nötig.</p>
+                <p>No. There is no contract when you use Pulse, other than agreeing to our Terms of Service.</p>
 
                 <h4>What types of payments do you accept?</h4>
-                <p>Zahlung per Kreditkarte möglich...</p>
+                <p>We accept payments made online using Visa, Mastercard, Discover, and American Express.</p>
             </div>
         </div>
     </section>
 
-    <!-- Fußzeile -->
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
                 <div class="footer-logo">
-                    <h2 class="logo-text">pul<span class="dot">.</span>se</h2> <!-- Logo -->
-                    <button class="trial-btn">Sign Up for a Free 30-Day Trial</button> <!-- Testen-Button -->
+                    <h2 class="logo-text">pul<span class="dot">.</span>se</h2>
+                    <button class="trial-btn">Sign Up for a Free 30-Day Trial</button>
                 </div>
                 <div class="footer-links">
                     <div class="footer-section">
@@ -160,12 +165,11 @@
             <div class="footer-bottom">
                 <p>&copy; 2019 Pulseapp.com, Inc. All Rights Reserved | <a href="#">Terms of Use</a> | <a
                         href="#">Privacy Policy</a></p>
-                <button class="contact-btn">Contact Us</button> <!-- Kontakt-Button -->
+                <button class="contact-btn">Contact Us</button>
             </div>
         </div>
     </footer>
 
-    <!-- JavaScript-Dateien -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
