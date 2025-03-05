@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="de">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Primzahl Prüfer</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
     <script>
         function istPrimzahl(n) {
             if (isNaN(n) || n < 2 || !Number.isInteger(n)) {
@@ -13,7 +12,7 @@
             }
             for (let i = 2; i <= Math.sqrt(n); i++) {
                 if (n % i === 0) {
-                    return { text: "Keine Primzahl", class: "invalid" };
+                    return { text: "Keine angegebene Primzahl", class: "invalid" };
                 }
             }
             return { text: "Gültige Primzahl", class: "valid" };
@@ -28,12 +27,10 @@
         }
     </script>
 </head>
-
 <body>
     <h2>Primzahl Prüfer</h2>
     <input type="text" id="zahl" placeholder="Zahl eingeben">
     <button onclick="prüfen()">Prüfen</button>
     <p id="ergebnis"></p>
 </body>
-
 </html>
