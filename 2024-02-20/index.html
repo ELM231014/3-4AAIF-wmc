@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Primzahl Prüfer</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
     <script>
         function istPrimzahl(n) {
             if (isNaN(n) || n < 2 || !Number.isInteger(n)) {
@@ -19,9 +19,17 @@
         }
 
         function prüfen() {
-            let zahl = parseInt(document.getElementById("zahl").value);
-            let ergebnis = istPrimzahl(zahl);
+            let eingabe = document.getElementById("zahl").value.trim();
             let ergebnisElement = document.getElementById("ergebnis");
+
+            if (eingabe === "") {
+                ergebnisElement.innerText = "Keine angegebene Primzahl";
+                ergebnisElement.className = "invalid";
+                return;
+            }
+
+            let zahl = parseInt(eingabe);
+            let ergebnis = istPrimzahl(zahl);
             ergebnisElement.innerText = ergebnis.text;
             ergebnisElement.className = ergebnis.class;
         }
