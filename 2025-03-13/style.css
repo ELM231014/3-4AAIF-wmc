@@ -1,0 +1,59 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e9f5f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+
+textarea {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    resize: none;
+}
+
+
+button {
+    padding: 10px 25px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.4s ease; /* Sanfte Transition für alle Effekte */
+}
+
+/* Hover-Effekt */
+button:hover {
+    background-color: #0056b3;
+    transform: translateY(-4px); /* Button wird leicht nach oben verschoben */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1); /* Subtile Schatteneffekte */
+}
+
+/* Focus-Effekt für bessere Zugänglichkeit */
+button:focus {
+    outline: none;
+    box-shadow: 0 0 10px #007BFF; /* Sanfte blaue Umrandung */
+}
+
