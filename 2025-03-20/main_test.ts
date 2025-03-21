@@ -17,7 +17,7 @@ Deno.test("fromRoman converts numerals correctly", () => {
 
 // Test für ungültige Eingaben
 Deno.test("Invalid inputs throw errors", () => {
-    assertThrows(() => toRoman(0), Error, "Invalid input: Number must be between 1 and 3999");
-    assertThrows(() => toRoman(4000), Error, "Invalid input: Number must be between 1 and 3999");
-    assertThrows(() => fromRoman("INVALID"), Error, "Invalid input: Must be a valid Roman numeral");
+    assertThrows(() => toRoman(0), Error, "Ungültige Eingabe: Die Zahl muss zwischen 1 und 3999 liegen");
+    assertThrows(() => toRoman(4000), Error, "Ungültige Eingabe: Die Zahl muss zwischen 1 und 3999 liegen");
+    assertThrows(() => fromRoman("INVALID"), Error, "Ungültige Eingabe: Es muss eine gültige römische Zahl sein");
 });

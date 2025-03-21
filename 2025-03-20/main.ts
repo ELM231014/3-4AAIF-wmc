@@ -2,7 +2,7 @@
 export function toRoman(num: number): string {
     // Überprüfung, ob die Eingabe eine gültige Zahl ist (zwischen 1 und 3999)
     if (typeof num !== 'number' || num <= 0 || num >= 4000) {
-        throw new Error("Invalid input: Number must be between 1 and 3999");
+        throw new Error("Ungültige Eingabe: Die Zahl muss zwischen 1 und 3999 liegen");
     }
 
     // Liste der römischen Ziffern und ihrer entsprechenden Werte
@@ -27,7 +27,7 @@ export function toRoman(num: number): string {
 export function fromRoman(roman: string): number {
     // Überprüfung, ob die Eingabe ein gültiger römischer Zahl-String ist
     if (typeof roman !== 'string' || !/^[IVXLCDM]+$/.test(roman)) {
-        throw new Error("Invalid input: Must be a valid Roman numeral");
+        throw new Error("Ungültige Eingabe: Es muss eine gültige römische Zahl sein");
     }
 
     // Mapping der römischen Ziffern zu ihren entsprechenden Werten
@@ -51,4 +51,17 @@ export function fromRoman(roman: string): number {
         prevValue = value; // Aktualisierung des vorherigen Werts
     }
     return total; // Rückgabe der umgewandelten Zahl
+}
+
+// Hauptprogramm, wenn die Datei direkt ausgeführt wird
+if (import.meta.main) {
+    // Eingabeaufforderung für den Benutzer
+    const num = parseInt(prompt("Geben Sie eine Zahl ein, die in eine römische Zahl umgewandelt werden soll:") || "");
+    if (!isNaN(num)) {
+        // Ausgabe der römischen Zahl
+        console.log(`Römische Zahl: ${toRoman(num)}`);
+    } else {
+        // Fehlermeldung bei ungültiger Eingabe
+        console.error("Ungültige Eingabe. Bitte geben Sie eine gültige Zahl ein.");
+    }
 }
