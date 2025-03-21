@@ -1,5 +1,6 @@
 {
   "tasks": {
-    "test": "deno test --allow-all"
+    "test": "deno test --allow-all",
+    "run": "deno run --allow-read main.ts"
   }
 }
