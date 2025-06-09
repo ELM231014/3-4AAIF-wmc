@@ -42,5 +42,3 @@ class Person {
         }
     }
 }
-
-export { Person };
